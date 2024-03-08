@@ -1,237 +1,196 @@
-[22:14:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:14:14] [ServerMain/INFO]: Loaded 1174 recipes
-[22:14:14] [ServerMain/INFO]: Loaded 1271 advancements
-[22:14:15] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[22:14:15] [Server thread/INFO]: Loading properties
-[22:14:15] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
-[22:14:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:14:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:14:17] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:35:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:35:47] [ServerMain/INFO]: Loaded 1174 recipes
+[13:35:48] [ServerMain/INFO]: Loaded 1271 advancements
+[13:35:48] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[13:35:48] [Server thread/INFO]: Loading properties
+[13:35:48] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
+[13:35:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:35:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:35:49] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[22:14:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[22:14:17] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
-	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-409]
-	Suppressed: java.io.IOException: The handle is invalid
-		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
-		at java.io.FileDescriptor.close(FileDescriptor.java:304) ~[?:?]
-		at java.io.FileInputStream$1.close(FileInputStream.java:526) ~[?:?]
-		at java.io.FileDescriptor.closeAll(FileDescriptor.java:362) ~[?:?]
-		at java.io.FileInputStream.close(FileInputStream.java:524) ~[?:?]
-		at java.io.BufferedInputStream.close(BufferedInputStream.java:618) ~[?:?]
-		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:424) ~[?:?]
-		at sun.nio.cs.StreamDecoder.lockedClose(StreamDecoder.java:264) ~[?:?]
-		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:249) ~[?:?]
-		at java.io.InputStreamReader.close(InputStreamReader.java:203) ~[?:?]
-		at java.io.BufferedReader.implClose(BufferedReader.java:636) ~[?:?]
-		at java.io.BufferedReader.close(BufferedReader.java:621) ~[?:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-409]
-[22:14:17] [Server thread/INFO]: Default game type: SURVIVAL
-[22:14:17] [Server thread/INFO]: Generating keypair
-[22:14:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:14:17] [Server thread/INFO]: Using default channel type
-[22:14:17] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[22:14:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:14:17] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[22:14:19] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
-[22:14:20] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[22:14:20] [Server thread/INFO]: [PlayTime] Loading server plugin PlayTime v3.6
-[22:14:20] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.8.0
-[22:14:20] [Server thread/INFO]: [BedHome] Loading server plugin BedHome v2.35
-[22:14:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:14:20] [Server thread/INFO]: Preparing level "world"
-[22:14:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:14:20] [Server thread/INFO]: Time elapsed: 214 ms
-[22:14:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:14:22] [Server thread/INFO]: Time elapsed: 1241 ms
-[22:14:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:14:22] [Server thread/INFO]: Time elapsed: 43 ms
-[22:14:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[22:14:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[22:14:22] [Server thread/INFO]: [PlayTime] Enabling PlayTime v3.6*
-[22:14:22] [Server thread/INFO]: [PlayTime] PlaceholderAPI was found! Registering Placeholders.
-[22:14:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playtime [3.6]
-[22:14:22] [Server thread/INFO]: [GSit] Enabling GSit v1.8.0
-[22:14:22] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[22:14:22] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
-[22:14:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.8.0]
-[22:14:22] [Server thread/INFO]: [BedHome] Enabling BedHome v2.35
-[22:14:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[22:14:23] [Server thread/INFO]: Running delayed init tasks
-[22:14:23] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[22:14:23] [Server thread/INFO]: Done (7.317s)! For help, type "help"
-[22:14:23] [Server thread/INFO]: Timings Reset
-[22:14:23] [Craft Scheduler Thread - 1 - PlayTime/INFO]: [PlayTime] Latest version is installed! - v3.6
-[22:14:23] [User Authenticator #0/INFO]: UUID of player JottGi is fd96fc5a-7523-449b-a76b-8a04fbc8b6d6
-[22:14:24] [Server thread/INFO]: JottGi joined the game
-[22:14:24] [Server thread/INFO]: JottGi[/74.12.124.82:54930] logged in with entity id 141 at ([world]9362.365066959757, 72.0, 2819.7232757994084)
-[22:14:28] [User Authenticator #0/INFO]: UUID of player boovilletorreto is e8fbf36c-56a0-4fcf-bcaa-a5886f7529fd
-[22:14:29] [Server thread/INFO]: boovilletorreto joined the game
-[22:14:29] [Server thread/INFO]: boovilletorreto[/10.0.0.200:55630] logged in with entity id 503 at ([world]9411.933305886085, 71.0, 2815.086133263424)
-[22:14:54] [Server thread/INFO]: JottGi issued server command: /home
-[22:14:55] [Server thread/INFO]: JottGi issued server command: /bed
-[22:14:57] [Server thread/INFO]: JottGi issued server command: /bed
-[22:14:59] [Server thread/INFO]: JottGi issued server command: /bed boovilletorreto
-[22:15:18] [Async Chat Thread - #1/INFO]: <boovilletorreto> .tp 1090 70 150
-[22:15:23] [Server thread/INFO]: JottGi issued server command: /tp 1144 70 302
-[22:15:23] [Server thread/INFO]: [JottGi: Teleported JottGi to 1144.500000, 70.000000, 302.500000]
-[22:15:26] [Server thread/INFO]: JottGi issued server command: /bed
-[22:15:31] [Server thread/INFO]: JottGi issued server command: /bedhome
-[22:15:35] [Server thread/INFO]: JottGi issued server command: /bedhome:bh
-[22:15:40] [Server thread/INFO]: JottGi issued server command: /bed
-[22:16:03] [Server thread/INFO]: JottGi issued server command: /bedhome
-[22:16:10] [Server thread/INFO]: JottGi issued server command: /bedhome lookup
-[22:16:16] [Server thread/INFO]: JottGi issued server command: /bedhome lookup
-[22:16:20] [Server thread/INFO]: JottGi issued server command: /bedhome lookup JottGi world
-[22:17:34] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:17:34] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:19:14] [Server thread/INFO]: JottGi issued server command: /time set day
-[22:19:14] [Server thread/INFO]: [JottGi: Set the time to 1000]
-[22:20:46] [Server thread/INFO]: boovilletorreto has made the advancement [You've Got a Friend in Me]
-[22:21:44] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:21:44] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:24:24] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:24:24] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:24:24] [Server thread/WARN]: JottGi moved too quickly! -8.104701025580653,-10.9375,-41.06368609366518
-[22:27:11] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:27:11] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:30:46] [Server thread/INFO]: JottGi issued server command: /tp 1144 70 302
-[22:30:46] [Server thread/INFO]: [JottGi: Teleported JottGi to 1144.500000, 70.000000, 302.500000]
-[22:30:46] [Server thread/WARN]: JottGi moved too quickly! -8224.862568174281,-0.5753455594904011,-2508.421565126024
-[22:30:55] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:30:55] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:31:01] [Server thread/INFO]: JottGi issued server command: /back
-[22:31:03] [Server thread/INFO]: JottGi issued server command: /tp 1144 70 302
-[22:31:03] [Server thread/INFO]: [JottGi: Teleported JottGi to 1144.500000, 70.000000, 302.500000]
-[22:31:03] [Server thread/WARN]: JottGi moved too quickly! -8120.923355745548,-28.0625,-2584.930625099424
-[22:31:04] [Server thread/INFO]: boovilletorreto issued server command: /tp JottGi
-[22:31:04] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to JottGi]
-[22:31:04] [Server thread/WARN]: boovilletorreto moved too quickly! -8132.597544102902,-28.0625,-2580.7905490182957
-[22:33:18] [Server thread/INFO]: boovilletorreto lost connection: Disconnected
-[22:33:18] [Server thread/INFO]: boovilletorreto left the game
-[22:33:25] [User Authenticator #1/INFO]: UUID of player boovilletorreto is e8fbf36c-56a0-4fcf-bcaa-a5886f7529fd
-[22:33:25] [Server thread/INFO]: boovilletorreto joined the game
-[22:33:25] [Server thread/INFO]: boovilletorreto[/10.0.0.200:56609] logged in with entity id 5591 at ([world]1148.6579980859008, 71.0, 303.97909113162603)
-[22:51:45] [Server thread/INFO]: boovilletorreto issued server command: /tp j
-[22:51:48] [Server thread/INFO]: JottGi issued server command: /tp boovilletorreto JottGi
-[22:51:48] [Server thread/INFO]: [JottGi: Teleported boovilletorreto to JottGi]
-[22:51:51] [Server thread/INFO]: JottGi issued server command: /tp 1144 70 302
-[22:51:51] [Server thread/INFO]: [JottGi: Teleported JottGi to 1144.500000, 70.000000, 302.500000]
-[22:51:51] [Server thread/WARN]: JottGi moved too quickly! -146.27397034645332,-9.0,165.73700361539724
-[22:52:12] [Server thread/INFO]: JottGi issued server command: /tp JottGi boovilletorreto
-[22:52:12] [Server thread/INFO]: [JottGi: Teleported JottGi to boovilletorreto]
-[22:52:20] [Server thread/INFO]: boovilletorreto issued server command: /tp 1291.14 79.30 137.13
-[22:52:20] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1291.140000, 79.300000, 137.130000]
-[22:52:25] [Async Chat Thread - #3/INFO]: <JottGi> 1144 70 302
-[22:52:29] [Server thread/INFO]: JottGi has made the advancement [Best Friends Forever]
-[22:52:31] [Server thread/INFO]: boovilletorreto issued server command: /tp 1144 70 302
-[22:52:31] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1144.500000, 70.000000, 302.500000]
-[22:52:31] [Server thread/WARN]: boovilletorreto moved too quickly! -146.6400000000001,-9.0,165.37
-[22:53:33] [Server thread/INFO]: boovilletorreto issued server command: /tp 1291.14 79.30 137.13
-[22:53:33] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1291.140000, 79.300000, 137.130000]
-[22:53:33] [Server thread/WARN]: boovilletorreto moved too quickly! 147.83999998807917,9.299999999999997,-166.17000001192093
-[22:53:42] [Server thread/INFO]: JottGi issued server command: /tp boovilletorreto JottGi
-[22:53:42] [Server thread/INFO]: [JottGi: Teleported boovilletorreto to JottGi]
-[22:53:42] [Server thread/WARN]: boovilletorreto moved too quickly! 70.00779584302313,-10.408453340253729,-118.4253133370618
-[22:53:46] [Server thread/INFO]: boovilletorreto issued server command: /tp 1144 70 302
-[22:53:46] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1144.500000, 70.000000, 302.500000]
-[22:53:46] [Server thread/WARN]: boovilletorreto moved too quickly! -201.30095942841467,-1.0,279.3311322176388
-[22:55:33] [Server thread/INFO]: JottGi issued server command: /seed
-[22:55:58] [Async Chat Thread - #5/INFO]: <JottGi> 994
-[22:56:04] [Async Chat Thread - #6/INFO]: <JottGi> -1553
-[23:01:37] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:01:37] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:01:50] [Server thread/INFO]: JottGi issued server command: /gamemode survival boovilletorreto
-[23:01:50] [Server thread/INFO]: [JottGi: Set boovilletorreto's game mode to Survival Mode]
-[23:04:15] [Async Chat Thread - #7/INFO]: <boovilletorreto> .1453 57 -955
-[23:04:18] [Server thread/INFO]: boovilletorreto issued server command: /tp 1144 70 302
-[23:04:18] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1144.500000, 70.000000, 302.500000]
-[23:04:18] [Server thread/WARN]: boovilletorreto moved too quickly! -309.03953955935367,16.0,1258.0092115276395
-[23:05:45] [Server thread/INFO]: boovilletorreto issued server command: /tp 1453 57 -955
-[23:05:45] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1453.500000, 57.000000, -954.500000]
-[23:05:45] [Server thread/WARN]: boovilletorreto moved too quickly! 309.6784379896267,-14.0,-1257.0015096998209
-[23:05:51] [Server thread/INFO]: JottGi lost connection: Disconnected
-[23:05:51] [Server thread/INFO]: JottGi left the game
-[23:06:21] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:06:21] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:06:47] [Server thread/INFO]: boovilletorreto issued server command: /gamemode survival
-[23:06:47] [Server thread/INFO]: [boovilletorreto: Set own game mode to Survival Mode]
-[23:07:00] [Server thread/INFO]: boovilletorreto issued server command: /gamemode creative
-[23:07:00] [Server thread/INFO]: [boovilletorreto: Set own game mode to Creative Mode]
-[23:07:07] [Server thread/INFO]: boovilletorreto issued server command: /gamemode adventure
-[23:07:07] [Server thread/INFO]: [boovilletorreto: Set own game mode to Adventure Mode]
-[23:07:12] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:07:12] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:07:52] [Server thread/INFO]: boovilletorreto issued server command: /gamemode adventure
-[23:07:52] [Server thread/INFO]: [boovilletorreto: Set own game mode to Adventure Mode]
-[23:08:05] [Server thread/INFO]: boovilletorreto lost connection: Disconnected
-[23:08:05] [Server thread/INFO]: boovilletorreto left the game
-[23:08:07] [User Authenticator #2/INFO]: UUID of player boovilletorreto is e8fbf36c-56a0-4fcf-bcaa-a5886f7529fd
-[23:08:08] [Server thread/INFO]: boovilletorreto joined the game
-[23:08:08] [Server thread/INFO]: boovilletorreto[/10.0.0.200:57470] logged in with entity id 22394 at ([world_the_end]82.8264959432882, 10.53682001840219, -5.297657680379527)
-[23:08:10] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:08:10] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:09:45] [Server thread/INFO]: boovilletorreto issued server command: /gamemode adventure
-[23:09:45] [Server thread/INFO]: [boovilletorreto: Set own game mode to Adventure Mode]
-[23:09:47] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:09:47] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:09:54] [Server thread/INFO]: boovilletorreto issued server command: /gamemode adventure
-[23:09:54] [Server thread/INFO]: [boovilletorreto: Set own game mode to Adventure Mode]
-[23:10:02] [Server thread/INFO]: boovilletorreto issued server command: /gamemode survival
-[23:10:02] [Server thread/INFO]: [boovilletorreto: Set own game mode to Survival Mode]
-[23:10:35] [Server thread/INFO]: boovilletorreto issued server command: /gamemode spectator
-[23:10:35] [Server thread/INFO]: [boovilletorreto: Set own game mode to Spectator Mode]
-[23:10:47] [Server thread/INFO]: boovilletorreto issued server command: /gamemode survival
-[23:10:47] [Server thread/INFO]: [boovilletorreto: Set own game mode to Survival Mode]
-[23:22:07] [Server thread/INFO]: boovilletorreto lost connection: Disconnected
-[23:22:07] [Server thread/INFO]: boovilletorreto left the game
-[23:22:20] [Server thread/INFO]: Stopping the server
-[23:22:20] [Server thread/INFO]: Stopping server
-[23:22:20] [Server thread/INFO]: [BedHome] Disabling BedHome v2.35
-[23:22:20] [Server thread/INFO]: [GSit] Disabling GSit v1.8.0
-[23:22:20] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[23:22:20] [Server thread/INFO]: [PlayTime] Disabling PlayTime v3.6
-[23:22:20] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
-[23:22:20] [Server thread/INFO]: Saving players
-[23:22:21] [Server thread/INFO]: Saving worlds
-[23:22:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 34 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[23:22:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:22:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[23:22:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:22:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:22:21] [Server thread/INFO]: [ChunkHolderManager] Saved 542 block chunks, 5 entity chunks, 1 poi chunks in world 'world_the_end' in 0.12s
-[23:22:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:22:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:22:21] [Server thread/INFO]: Flushing Chunk IO
-[23:22:21] [Server thread/INFO]: Closing Thread Pool
-[23:22:21] [Server thread/INFO]: Closing Server
+[13:35:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[13:35:49] [Server thread/INFO]: Default game type: SURVIVAL
+[13:35:49] [Server thread/INFO]: Generating keypair
+[13:35:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:35:49] [Server thread/INFO]: Using default channel type
+[13:35:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:35:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:35:49] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:35:51] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
+[13:35:51] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[13:35:51] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[13:35:51] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.4.0
+[13:35:51] [Server thread/INFO]: [PlayTime] Loading server plugin PlayTime v3.6
+[13:35:51] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-4-935
+[13:35:51] [Server thread/INFO]: [dynmap] version=git-Paper-409 (MC: 1.20.4)
+[13:35:51] [Server thread/INFO]: [dynmap] Mod Support API available
+[13:35:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:35:51] [Server thread/INFO]: Preparing level "world"
+[13:35:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:35:53] [Server thread/INFO]: Time elapsed: 957 ms
+[13:35:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:35:53] [Server thread/INFO]: Time elapsed: 60 ms
+[13:35:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:35:53] [Server thread/INFO]: Time elapsed: 30 ms
+[13:35:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[13:35:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:35:53] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[13:35:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[13:35:54] [Server thread/INFO]: [TAB] Enabled in 226ms
+[13:35:54] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.4.0
+[13:35:54] [Server thread/INFO]: Hooked to PlaceholderAPI
+[13:35:54] [Server thread/INFO]: [sleep-most] Hooked to PAPI!
+[13:35:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: sleepmost [5.4.0]
+[13:35:54] [Server thread/INFO]: [PlayTime] Enabling PlayTime v3.6*
+[13:35:54] [Server thread/INFO]: [PlayTime] PlaceholderAPI was found! Registering Placeholders.
+[13:35:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playtime [3.6]
+[13:35:54] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[13:35:54] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[13:35:54] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[13:35:54] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[13:35:54] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[13:35:56] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[13:35:56] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[13:35:56] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:25568
+[13:35:56] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[13:35:56] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[13:35:56] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[13:35:56] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[13:35:56] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 58973 pending tile renders for world 'world'
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[13:35:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[13:35:56] [Server thread/INFO]: [dynmap] Enabled
+[13:35:56] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:35:56] [Server thread/INFO]: Running delayed init tasks
+[13:35:56] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:35:56] [Server thread/INFO]: Done (8.709s)! For help, type "help"
+[13:35:56] [Server thread/INFO]: Timings Reset
+[13:35:57] [Craft Scheduler Thread - 2 - PlayTime/INFO]: [PlayTime] Latest version is installed! - v3.6
+[13:35:57] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[13:45:01] [Server thread/INFO]: Whitelist is now turned on
+[13:45:44] [Server thread/INFO]: Added JottGi to the whitelist
+[13:45:55] [User Authenticator #0/INFO]: UUID of player boovilletorreto is e8fbf36c-56a0-4fcf-bcaa-a5886f7529fd
+[13:45:56] [Server thread/INFO]: boovilletorreto joined the game
+[13:45:56] [Server thread/INFO]: boovilletorreto[/127.0.0.1:53690] logged in with entity id 92 at ([world]8909.354457138747, 64.5, 2384.745592986567)
+[13:46:07] [Server thread/INFO]: Added boovilletorreto to the whitelist
+[13:46:09] [Server thread/INFO]: There are 1 of a max of 2 players online: boovilletorreto
+[13:46:12] [Server thread/INFO]: Unknown or incomplete command, see below for error
+whitelist<--[HERE]
+[13:46:14] [Server thread/INFO]: There are 2 whitelisted player(s): JottGi, boovilletorreto
+[13:48:16] [Server thread/INFO]: boovilletorreto issued server command: /tp 1200 80 300
+[13:48:16] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1200.500000, 80.000000, 300.500000]
+[13:48:16] [Server thread/WARN]: boovilletorreto moved too quickly! -7715.509949592502,13.0,-2084.3055231791955
+[13:54:08] [Server thread/INFO]: boovilletorreto issued server command: /whitelist OntarioEnjoyer
+[13:54:10] [Server thread/INFO]: boovilletorreto issued server command: /whitelist OntarioEnjoyer
+[13:54:18] [Server thread/INFO]: boovilletorreto issued server command: /whitelist add OntarioEnjoyer
+[13:54:18] [Server thread/INFO]: [boovilletorreto: Added OntarioEnjoyer to the whitelist]
+[14:04:47] [Server thread/INFO]: OntarioEnjoyer (/138.51.89.104:29258) lost connection: Disconnected
+[14:05:06] [Server thread/INFO]: OntarioEnjoyer (/138.51.89.104:29352) lost connection: Disconnected
+[14:06:57] [User Authenticator #1/INFO]: UUID of player OntarioEnjoyer is ece38175-c9d1-4bab-9a55-0c40198540e5
+[14:06:58] [Server thread/INFO]: OntarioEnjoyer joined the game
+[14:06:58] [Server thread/INFO]: OntarioEnjoyer[/138.51.89.104:29363] logged in with entity id 5813 at ([world]217.5, 67.0, 132.5)
+[14:07:04] [Async Chat Thread - #2/INFO]: <OntarioEnjoyer> ahhh
+[14:07:19] [Async Chat Thread - #1/INFO]: <OntarioEnjoyer> op me
+[14:07:36] [Server thread/INFO]: boovilletorreto issued server command: /op OntarioEnjoyer
+[14:07:36] [Server thread/INFO]: [boovilletorreto: Made OntarioEnjoyer a server operator]
+[14:07:44] [Server thread/INFO]: OntarioEnjoyer issued server command: /tp OntarioEnjoyer boovilletorreto
+[14:07:44] [Server thread/INFO]: OntarioEnjoyer has made the advancement [We Need to Go Deeper]
+[14:07:44] [Server thread/INFO]: [OntarioEnjoyer: Teleported OntarioEnjoyer to boovilletorreto]
+[14:07:44] [Server thread/INFO]: OntarioEnjoyer has made the advancement [A Terrible Fortress]
+[14:07:47] [Async Chat Thread - #2/INFO]: <OntarioEnjoyer> IM GOING TO KILL YOU
+[14:07:57] [Async Chat Thread - #1/INFO]: <boovilletorreto> why
+[14:08:17] [Async Chat Thread - #2/INFO]: <OntarioEnjoyer> are you getting wither skulls
+[14:08:22] [Async Chat Thread - #1/INFO]: <boovilletorreto> yup
+[14:08:24] [Async Chat Thread - #2/INFO]: <OntarioEnjoyer> lmao
+[14:08:26] [Async Chat Thread - #1/INFO]: <OntarioEnjoyer> im in stats lecture rn
+[14:08:33] [Server thread/INFO]: OntarioEnjoyer was doomed to fall
+[14:08:34] [Async Chat Thread - #2/INFO]: <boovilletorreto> lmao
+[14:12:09] [Async Chat Thread - #3/INFO]: <OntarioEnjoyer> Wow! I wish I could join on my main!
+[14:12:15] [Async Chat Thread - #4/INFO]: <OntarioEnjoyer> can you send the tp to the home
+[14:12:18] [Async Chat Thread - #3/INFO]: <OntarioEnjoyer> the village one
+[14:12:23] [Server thread/INFO]: OntarioEnjoyer issued server command: /tp OntarioEnjoyer boovilletorreto
+[14:12:23] [Server thread/INFO]: [OntarioEnjoyer: Teleported OntarioEnjoyer to boovilletorreto]
+[14:12:54] [Server thread/INFO]: boovilletorreto issued server command: /execute in minecraft:overworld run tp OntarioEnjoyer 1200 80 800
+[14:12:54] [Server thread/INFO]: [boovilletorreto: Teleported OntarioEnjoyer to 1200.500000, 80.000000, 800.500000]
+[14:13:01] [Async Chat Thread - #4/INFO]: <boovilletorreto> long ass tp
+[14:13:14] [Async Chat Thread - #3/INFO]: <OntarioEnjoyer> Where tf am I
+[14:13:27] [Server thread/INFO]: boovilletorreto issued server command: /execute in minecraft:overworld run tp OntarioEnjoyer 1200 80 300
+[14:13:27] [Server thread/INFO]: [boovilletorreto: Teleported OntarioEnjoyer to 1200.500000, 80.000000, 300.500000]
+[14:15:06] [Server thread/INFO]: OntarioEnjoyer has made the advancement [Cover Me with Diamonds]
+[14:15:26] [Server thread/INFO]: OntarioEnjoyer has made the advancement [Suit Up]
+[14:20:24] [Server thread/INFO]: boovilletorreto issued server command: /execute in minecraft:overworld run tp boovilletorreto 1200 80 300
+[14:20:24] [Server thread/INFO]: [boovilletorreto: Teleported boovilletorreto to 1200.500000, 80.000000, 300.500000]
+[14:20:42] [Server thread/INFO]: OntarioEnjoyer has made the advancement [Isn't It Iron Pick]
+[14:20:57] [Server thread/INFO]: OntarioEnjoyer lost connection: Disconnected
+[14:20:57] [Server thread/INFO]: OntarioEnjoyer left the game
+[14:24:10] [User Authenticator #2/INFO]: UUID of player OntarioEnjoyer is ece38175-c9d1-4bab-9a55-0c40198540e5
+[14:24:10] [Server thread/INFO]: OntarioEnjoyer joined the game
+[14:24:10] [Server thread/INFO]: OntarioEnjoyer[/138.51.89.104:29426] logged in with entity id 14581 at ([world]1133.1194099485876, 69.0, 294.1099698634996)
+[14:24:16] [Async Chat Thread - #6/INFO]: <OntarioEnjoyer> need food
+[14:29:32] [Server thread/INFO]: boovilletorreto issued server command: /sm bed
+[14:29:32] [Server thread/WARN]: boovilletorreto moved too quickly! 7764.519847450168,-6.0,2054.643136354843
+[14:30:39] [Server thread/INFO]: OntarioEnjoyer issued server command: /tp OntarioEnjoyer boovilletorreto
+[14:30:39] [Server thread/INFO]: [OntarioEnjoyer: Teleported OntarioEnjoyer to boovilletorreto]
+[14:30:39] [Server thread/WARN]: OntarioEnjoyer moved too quickly! 7769.468141630621,-2.375,2068.940590348842
+[14:30:47] [Server thread/INFO]: OntarioEnjoyer lost connection: Disconnected
+[14:30:47] [Server thread/INFO]: OntarioEnjoyer left the game
+[14:32:20] [User Authenticator #3/INFO]: UUID of player OntarioEnjoyer is ece38175-c9d1-4bab-9a55-0c40198540e5
+[14:32:20] [Server thread/INFO]: OntarioEnjoyer joined the game
+[14:32:20] [Server thread/INFO]: OntarioEnjoyer[/138.51.89.104:29196] logged in with entity id 24446 at ([world]8904.914232716676, 67.5, 2376.089677589861)
+[14:32:34] [Async Chat Thread - #8/INFO]: <OntarioEnjoyer> ....
+[14:32:46] [Async Chat Thread - #8/INFO]: <OntarioEnjoyer> tp me hope
+[14:32:46] [Async Chat Thread - #7/INFO]: <OntarioEnjoyer> pls
+[14:32:47] [Async Chat Thread - #8/INFO]: <OntarioEnjoyer> home
+[14:32:47] [Async Chat Thread - #7/INFO]: <OntarioEnjoyer> pls
+[14:32:51] [Async Chat Thread - #8/INFO]: <OntarioEnjoyer> and need food.
+[14:33:19] [Async Chat Thread - #7/INFO]: <boovilletorreto> we need to start work on the creeper farm
+[14:33:24] [Async Chat Thread - #7/INFO]: <OntarioEnjoyer> im in leccture
+[14:33:31] [Async Chat Thread - #8/INFO]: <boovilletorreto> I don't care
+[14:33:34] [Async Chat Thread - #7/INFO]: <boovilletorreto> work slave
+[14:33:39] [Server thread/INFO]: OntarioEnjoyer lost connection: Disconnected
+[14:33:39] [Server thread/INFO]: OntarioEnjoyer left the game
+[14:36:25] [Server thread/INFO]: boovilletorreto lost connection: Disconnected
+[14:36:25] [Server thread/INFO]: boovilletorreto left the game
+[14:36:30] [Server thread/INFO]: Stopping the server
+[14:36:30] [Server thread/INFO]: Stopping server
+[14:36:30] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[14:36:30] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[14:36:30] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[14:36:30] [Server thread/INFO]: [dynmap] Saved 49505 pending tile renders in world 'world'
+[14:36:30] [Server thread/INFO]: [dynmap] Saved 16569 pending tile renders in world 'world_nether'
+[14:36:30] [Server thread/INFO]: [dynmap] Disabled
+[14:36:30] [Server thread/INFO]: [PlayTime] Disabling PlayTime v3.6
+[14:36:30] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
+[14:36:30] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[14:36:30] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:36:30] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[14:36:30] [Server thread/INFO]: Saving players
+[14:36:30] [Server thread/INFO]: Saving worlds
+[14:36:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saved 209 block chunks, 28 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[14:36:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:36:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saved 194 block chunks, 73 entity chunks, 0 poi chunks in world 'world_nether' in 0.21s
+[14:36:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:36:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:36:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:36:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:36:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:36:30] [Server thread/INFO]: Flushing Chunk IO
+[14:36:30] [Server thread/INFO]: Closing Thread Pool
+[14:36:30] [Server thread/INFO]: Closing Server
